@@ -32,3 +32,7 @@ and
         where
             year(contract.start_date) = 2023
     );
+    
+    select * from contract;
+
+select * from facility;

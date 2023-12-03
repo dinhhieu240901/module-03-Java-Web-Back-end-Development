@@ -22,5 +22,7 @@ where
         join
             contract on contract_detail.contract_id = contract.id
         where
-            year(contract.start_date) = 2023 and month(contract.start_date) in (1, 2, 3)
+            year(contract.start_date) = 2022 and month(contract.start_date) in (1, 2, 3)
     );
+    
+    select * from contract;

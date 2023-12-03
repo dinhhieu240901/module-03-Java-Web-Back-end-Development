@@ -1,7 +1,6 @@
--- 9.	Thực hiện thống kê doanh thu theo tháng, nghĩa là tương ứng với mỗi tháng trong năm 2022 thì sẽ có bao nhiêu khách hàng thực hiện đặt phòng.
 select
     month(contract.start_date) as 'tháng',
-    count(distinct customer.id) as 'số lượng khách hàng'
+    count( customer.id) as 'số lượng khách hàng'
 from
     contract
 join
