@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="QuaraticEquation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../QuaraticEquation/out/artifacts/QuaraticEquation_jar/QuaraticEquation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
