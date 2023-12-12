@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="244fff3b-15c4-4e93-9910-163f619d0889" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Demo display/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-06/Nhúng css vào trang html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-06/Nhúng css vào trang html/mystyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-06/Thực hành css/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-06/[Bài tập] Tạo trang đọc truyện ngắn/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-06/[Bài tập] Tạo trang đọc truyện ngắn/img/4276742.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-06/[Bài tập] Tạo trang đọc truyện ngắn/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-06/[Bài tập] Định dạng văn bản với CSS/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-06/[Bài tập] Định dạng văn bản với CSS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Bài tập] Phát triển trang web xem hoạt hình trực tuyến/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Bài tập] Phát triển trang web xem hoạt hình trực tuyến/img/doraemon01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Bài tập] Phát triển trang web xem hoạt hình trực tuyến/img/doraemon02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Bài tập] Phát triển trang web xem hoạt hình trực tuyến/img/doraemon03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Bài tập] Phát triển trang web xem hoạt hình trực tuyến/img/doraemon04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Bài tập] Phát triển trang web xem hoạt hình trực tuyến/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Bài tập] Phát triển trang web xem hoạt hình trực tuyến/netflix-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Bài tập] Phát triển trang web xem hoạt hình trực tuyến/web.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Bài tập] Tạo giao diện giản lược của trang chủ Facebook/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Bài tập] Tạo giao diện giản lược của trang chủ Facebook/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Bài tập] Tạo layout với RWD/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Bài tập] Tạo layout với các thẻ HTML5 và CSS/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Bài tập] Tạo layout với các thẻ HTML5 và CSS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Thực hành] Sử dụng box model/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Thực hành] Sử dụng box model/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Thực hành] Tạo menu dọc/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Thực hành] Tạo menu dọc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Thực hành] Tạo menu ngang/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-07/[Thực hành] Tạo menu ngang/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Tạo gallery đơn giản sử dụng Bootstrap/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Tạo gallery đơn giản sử dụng Bootstrap/html_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Tạo gallery đơn giản sử dụng Bootstrap/img_fjords.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Tạo gallery đơn giản sử dụng Bootstrap/img_forest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Tạo gallery đơn giản sử dụng Bootstrap/img_lights.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Tạo gallery đơn giản sử dụng Bootstrap/img_mountains.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/img/MSFT-Surface-Laptop-5_Home_DeviceShowcase_Platinum-Poster.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/img/MSFT-Surface-Pro-7-plues-three-quarter-view-kickstand-extended-type-cover.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/img/MSFT-View-Surface-Pro-9-Sapphire-Surface-Type-Cover-attached.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/img/MSFT_Surface-Laptop-5_Home_DeviceShowcase_Poster.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/img/MSFT_Surface_Home_Surface-Pro-9_Platinum_360-video" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/img/Microsoft Surface PCs, Computers, Laptops, 2-in-1s, Dual-Screen &amp; All-in-Ones - Microsoft Surface.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/img/RE1Mu3b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/img/RE59LMj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/img/RE59whD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/img/Surface_Laptop_Studio_2_plantinum_render_for_desktop.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/img/Surface_Pro-9_tablet_platinum_angled-render_with-Surface-Pen_desktop.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/img/homepage_Surface-Laptop-Go-3_iceblue_render.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/img/homepage_Surface-Laptop-Studio-2_platinum_render.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Bài tập] Xây dựng Landing Page/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Thực hành] Sử dụng Bootstrap xây dựng form login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-08/[Thực hành] Sử dụng Bootstrap xây dựng form login/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case/Bai27.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Case/Bai27.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case/Bai5.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Case/Bai5.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case/resort.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Case/resort.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ZCKhpP8qeLcD6KV6Et1VcDvzhm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/CodeGym/module-03-Java Web Back-end Development 2.1/lesson-09",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.80">
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.80" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.83" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : com.example : demo-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="a293d171-0e0b-4a65-89fc-dd8e1b33a06e" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54030" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : demo-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.Unnamed" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.80" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="244fff3b-15c4-4e93-9910-163f619d0889" name="Changes" comment="" />
+      <created>1701920744439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701920744439</updated>
+      <workItem from="1701920745530" duration="153000" />
+      <workItem from="1701920915618" duration="10891000" />
+      <workItem from="1701934985251" duration="2000" />
+      <workItem from="1701935010142" duration="245000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.RequestFacade" memberName="request" />
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.Request" memberName="coyoteRequest" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

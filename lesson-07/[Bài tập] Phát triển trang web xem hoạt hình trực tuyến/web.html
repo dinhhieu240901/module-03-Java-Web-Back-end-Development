@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0 100px;
+    }
+    header{
+        position: relative;
+        height: 50px;
+        width: 100%;
+        background-color: #dddddd;
+
+    }
+    .logo{
+        float: left;
+        width: auto;
+        height: 100%;
+    }
+    #logo {
+        height: 100%;
+        width: auto;
+    }
+    nav{
+        margin-top: 10px;
+        clear: both;
+        padding: 10px;
+        text-align: center;
+        background-color: lightgrey;
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        border-right: 1px solid black;
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+    .complain{
+        border: none;
+    }
+    footer{
+        text-align: center;
+        background-color: lightgrey;
+        padding: 10px;
+    }
+    .left{
+        width: 30%;
+        float: left;
+        background-color: lightgrey;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .left h4{
+        display: inline;
+    }
+    .left span{
+        color: rgb(128, 128, 128);
+        font-size: 20px;
+    }
+    .left div{
+        margin-bottom:20px;
+    }
+
+    .item1 img{
+        width: 100%;
+        height: auto;
+    }
+    .content{
+        padding:10px 0 0 10px;
+        float: right;
+        width: 70%;
+    }
+    iframe{
+        width: 100%;
+        height: 600px;
+    }
+    .content h4{
+        display: inline;
+    }
+    .content span{
+        color: rgb(128, 128, 128);
+        font-size: 20px;
+    }
+    .content p{
+        color: rgb(128, 128, 128);
+        font-family:Tahoma, sans-serif;
+        font-weight: bold;
+    }
+    .show:after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+    footer{
+        margin-top: 10px;
+    }
+
+</style>
+<body>
+<header>
+    <div class="logo">
+        <img src="netflix-logo.png" id="logo" alt="">
+    </div>
+
+</header>
+<nav>
+    <a href="">Phim hoạt hình</a>
+    <a href="">Phim hoạt hình yêu thích</a>
+    <a href="">Nhân vật hoạt hình</a>
+    <a class="complain" href="">Góp ý</a>
+</nav>
+<div class="show">
+    <div class="left">
+        <div class="item1">
+            <a href=""><img src="./img/doraemon01.jpg" alt=""></a>
+            <h4>Welcome đến với khách sạn Nobi - </h4><span>5,147,528 lượt xem</span><br>
+            <span>Channel Fun</span>
+        </div>
+        <div class="item1">
+            <a href=""><img src="./img/doraemon02.jpg" alt=""></a>
+            <h4>Suneo khổng lồ - </h4><span>5,147,528 lượt xem</span><br>
+            <span>Doremon Vietsub</span>
+        </div>
+        <div class="item1">
+            <a href=""><img src="./img/doraemon03.jpg" alt=""></a>
+            <h4>Còi điều khiển vật - </h4><span>5,147,528 lượt xem</span><br>
+            <span>Doremon Vietsub</span>
+        </div>
+        <div class="item1">
+            <a href=""><img src="./img/doraemon04.jpg" alt=""></a>
+            <h4>Chiếc máy tạo kẹo bông - </h4><span>5,147,528 lượt xem</span><br>
+            <span>Doremon Vietsub</span>
+        </div>
+    </div>
+    <div class="content">
+        <iframe width="950" height="500" src="https://www.youtube.com/embed/x9A49MD8cYo" title="[S11] Doraemon - Tập 571 - Jaian Mỏng Như Giấy Bay Đi Mất - Hoạt Hình Tiếng Việt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        <h4>Tớ là Mari - </h4><span class="view">5,147,528 lượt xem</span><br>
+        <span>Tác giả</span>
+        <p>Nội dung series kể về cuộc đời của cậu bé Nobita và chú mèo máy Doraemon từ tương lai đến để giúp cuộc sống của cậu bé trở nên tốt hơn. Tác phẩm ba lần được chuyển thể thành anime: lần đầu do Nippon TV Dōga sản xuất gồm 52 tập phát sóng trên Nippon TV từ 1 tháng 4 đến 30 tháng 9 năm 1973, lần thứ hai do Shin-Ei Animation sản xuất với 1787 tập phát từ 2 tháng 4 năm 1979 đến 18 tháng 3 năm 2005 trên TV Asahi và lần thứ ba cũng do Shin-Ei Animation sản xuất phát trên TV Asahi từ 15 tháng 4 năm 2005 đến nay. Tác phẩm cũng được chuyển thể thành các loại hình truyền thông khác như phim điện ảnh và trò chơi điện tử. </p>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2017 - Thiết kế web bởi trang hoathinhvn.net</p>
+</footer>
+</body>
+</html>

@@ -251,24 +251,33 @@ having
             attach_facility.id, attach_facility.name
     );
 -- 14.	Hiển thị thông tin tất cả các Dịch vụ đi kèm chỉ mới được sử dụng một lần duy nhất. Thông tin hiển thị bao gồm ma_hop_dong, ten_loai_dich_vu, ten_dich_vu_di_kem, so_lan_su_dung (được tính dựa trên việc count các ma_dich_vu_di_kem).
-select
+select distinct
     contract.id as 'MaHopDong',
     facility_type.name as 'TenLoaiDichVu',
     attach_facility.name as 'TenDichVuDiKem',
-    count(contract.id) as 'SoLanSuDung'
+    count(attach_facility.id) as 'SoLanSuDung'
 from
-    attach_facility
-left join
-    contract_detail on attach_facility.id = contract_detail.attach_facility_id
-left join
-    contract on contract_detail.contract_id = contract.id
-left join facility on facility.id = contract.facility_id
-left join facility_type on facility_type.id = facility.facility_type_id
+    contract
+join
+    contract_detail on contract_detail.contract_id = contract.id 
+join
+    attach_facility on attach_facility.id = contract_detail.attach_facility_id
+join facility on facility.id = contract.facility_id
+join facility_type on facility_type.id = facility.facility_type_id
+where contract_detail.attach_facility_id in (
+select attach_facility_id
+from contract_detail
 group by
-    contract.id, attach_facility.name
+    attach_facility_id
 having
-    count(contract.id) = 1
+    count(attach_facility.id) = 1)
+group by contract.id,facility_type.name,attach_facility.name
 order by contract.id;
+
+
+
+
+
 
 -- 15. Hiển thi thông tin của tất cả nhân viên bao gồm ma_nhan_vien, ho_ten, ten_trinh_do, ten_bo_phan, so_dien_thoai, dia_chi mới chỉ lập được tối đa 3 hợp đồng từ năm 2022 đến 2023.
 select
@@ -325,16 +334,6 @@ where id in (
         having count(contract.id) = 0
     ) as tmp
 );
-
-update employee
-set is_delete = 1
-where id in (
-    select employee.id
-    from employee
-    left join contract on contract.employee_id = employee.id and year(contract.start_date) between 2022 and 2023
-    group by employee.id
-    having count(contract.id) = 0
-);
 select * from employee;
 -- xóa nhân viên chưa từng lập hợp đồng (Hard Delete ( không khuyến khích) )
 delete from employee
@@ -380,18 +379,18 @@ order by
 
 -- Cập nhật khách hàng lên kim cương
 update customer
-set customer_type_id = (select id from customer_type where name = 'diamond')
+set customer_type_id = (select id from customer_type where name = 'Diamond')
 where id in (
     select contract.customer_id
     from contract
     join contract_detail on contract.id = contract_detail.contract_id
     join attach_facility on contract_detail.attach_facility_id = attach_facility.id
     left join facility on attach_facility.id = facility.id
-    where contract.is_delete = 0
+    where year(contract.start_date) = 2022
+    and contract.is_delete = 0
     group by contract.customer_id
-    having sum(facility.cost + (contract_detail.quantity * attach_facility.cost)) > 1000
-) and customer_type_id = (select id from customer_type where name = 'platinum');
-
+    having ifnull(sum(facility.cost + (contract_detail.quantity * attach_facility.cost)), 0) > 1000
+) and customer_type_id = (select id from customer_type where name = 'Platinum');
 
 
     select * from customer;

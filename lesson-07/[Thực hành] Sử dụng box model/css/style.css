@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.box-model {
+    width: 800px;
+    border: 10px;
+    padding: 10px;
+    border-color: #9aee14 #35e1e1 #1919ff #a900a9;
+    border-style: solid;
+    margin: auto;
+}
+.box-model p {
+    border:3px dotted red;
+    padding: 10px;
+}
+.border-text1{
+    margin-bottom: 20px;
+}
+
+.border-text2{
+    margin-bottom: 30px;
+}

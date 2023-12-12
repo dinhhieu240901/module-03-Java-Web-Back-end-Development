@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /* Block Element */
+        .block {
+            width: 100%;
+            background-color: #ffcccb;
+            margin-bottom: 10px;
+        }
+        .ex1{
+            display: block;
+        }
+        /* Inline Element */
+        .inline {
+            background-color: #aaffaa;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+        }
+        .ex2{
+            display: inline;
+        }
+        /* Inline-Block Element */
+        .inline-block {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+        .ex3{
+            display: inline-block;
+        }
+
+        /* Flex Container */
+        .flex-container {
+            background-color: #a900a9;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        /* Hidden Element */
+        .hidden-element {
+            display: none;
+            margin: 100px;
+        }
+
+        /* Grid Container */
+        .grid-container {
+           background-color: #1919ff;
+            border: 10px inset  #ffcccb ;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+            color: white;
+            margin: 10px;
+        }
+
+        /* Table */
+        .table {
+            display: table;
+            width: 100%;
+        }
+
+        .table-row {
+            display: table-row;
+
+        }
+        .table-cell {
+            display: table-cell;
+            padding: 5px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>The display property</h1>
+    <!-- Block Element -->
+    <div class="block">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.
+        <p class="ex1">HELLO WORLD!</p>
+        Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+    </div>
+
+    <!-- Inline Element -->
+    <div class="inline">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.
+        <p class="ex2">HELLO WORLD!
+        </p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+    </div>
+    <!-- Inline Element -->
+    <div class="inline-block">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.
+        <p class="ex3">HELLO WORLD!
+        </p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+    </div>
+    <!-- Flex Container -->
+
+    <div class="flex-container">
+        <div>Flex Item 1</div>
+        <div>Flex Item 2</div>
+        <div>Flex Item 3</div>
+    </div>
+    <!-- Hidden Element -->
+    <div class="hidden-element">This element is hidden.</div>
+    <!-- Grid Container -->
+    <div class="grid-container">
+        <div>Grid Item 1</div>
+        <div>Grid Item 2</div>
+        <div>Grid Item 3</div>
+        <div>Grid Item 4</div>
+        <div>Grid Item 5</div>
+        <div>Grid Item 6</div>
+    </div>
+    <!-- Table -->
+    <div class="table">
+        <div class="table-row">
+            <div class="table-cell">Row 1, Cell 1</div>
+            <div class="table-cell">Row 1, Cell 2</div>
+            <div class="table-cell">Row 1, Cell 3</div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell">Row 2, Cell 1</div>
+            <div class="table-cell">Row 2, Cell 2</div>
+            <div class="table-cell">Row 2, Cell 3</div>
+        </div>
+    </div>
+
+</body>
+</html>

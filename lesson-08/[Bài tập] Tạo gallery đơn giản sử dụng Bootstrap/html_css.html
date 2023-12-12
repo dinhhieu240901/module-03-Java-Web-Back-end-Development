@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+        .gallery{
+            border:1px solid grey;
+        }
+        .gallery img{
+            height: auto;
+            width: 100%;
+        }
+        .responsive p {
+            text-align: center;
+            padding: 15px;
+        }
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 25%;
+        }
+        @media only screen and (max-width: 700px){
+            .responsive {
+                width: 50%;
+                margin: 6px 0;
+            }
+        }
+        @media only screen and (max-width: 500px){
+            .responsive {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<h2>Responsive image gallery</h2>
+<h3>Resize the browser windows to see the effect</h3>
+    <div class="responsive">
+        <div class="gallery">
+        <img src="img_fjords.jpg" alt="">
+        <p>Đây là ngọn núi cao nhất thế giới</p>
+        </div>
+    </div>
+<div class="responsive">
+    <div class="gallery">
+        <img src="img_forest.jpg" alt="">
+        <p> Rừng rậm hoang vu</p>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <img src="img_lights.jpg" alt="">
+        <p>Đường hải lưu </p>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <img src="img_mountains.jpg" alt="">
+        <p>Phong cảnh tuyệt vời từ ngọn núi</p>
+    </div>
+</div>
+</body>
+</html>

@@ -5,7 +5,7 @@ b.	Tạo Function func_tinh_thoi_gian_hop_dong: Tính khoảng thời gian dài 
  hợp đồng mà khách hàng đã thực hiện thuê dịch vụ (lưu ý chỉ xét các khoảng thời gian dựa vào từng lần làm hợp đồng thuê dịch vụ, 
  không xét trên toàn bộ các lần làm hợp đồng). Mã của khách hàng được truyền vào như là 1 tham số của function này.
 */
-
+use resort_management;
 -- a. create function count_services
 
 DELIMITER //
@@ -37,10 +37,11 @@ begin
     and contract.customer_id  = customer_id_param;
 	return max_duration;
 end //
-
 DELIMITER ;
 drop function count_services_func;
+
+drop function calculate_contract_func;
 select count_services_func() as 'SoLuongDichVu';
 
-select calculate_contract_func(1); -- sai
+select calculate_contract_func(1) as 'Calculate max duration'; -- sai
 

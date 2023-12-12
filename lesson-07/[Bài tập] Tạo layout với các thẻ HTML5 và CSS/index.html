@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Cambria, sans-serif;
+        }
+
+        .header {
+            background-color: #35e1e1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #dddddd;
+            text-align: center;
+        }
+
+        li {
+            display: inline;
+            text-align: center;
+            color: red;
+            line-height: 30px;
+            padding: 0 30px;
+            font-size: 20px;
+        }
+
+        .main {
+            display: flex;
+            padding: 20px;
+        }
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            flex: 2;
+            margin-right: 20px;
+        }
+
+        .section, .article {
+            flex: 1;
+        }
+
+        .aside {
+            flex: 1;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h1>Your Website Header</h1>
+</div>
+
+<div class="nav">
+    <ul>
+        <li>Home</li>
+        <li>News</li>
+        <li>Contact</li>
+        <li>About</li>
+    </ul>
+</div>
+
+<div class="main">
+    <div class="left">
+        <div class="section">
+            <h2>Article Title</h2>
+            <p>Article content goes here.</p>
+        </div>
+
+        <div class="article">
+            <h2>Article Title</h2>
+            <p>Article content goes here.</p>
+        </div>
+    </div>
+
+    <div class="aside">
+        <h2>Aside Title</h2>
+        <p>Aside content goes here.</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2023 Your Website</p>
+</div>
+</body>
+</html>

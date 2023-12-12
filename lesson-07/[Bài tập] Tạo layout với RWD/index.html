@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        header ul{
+            padding: 0;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            overflow: hidden;
+        }
+        header a{
+            text-decoration: none;
+            padding: 15px;
+            float: left;
+            color: white;
+            font-size: 16px;
+
+        }
+        header a:hover:not(.active){
+            background-color: black;
+        }
+        .active {
+            background-color: black;
+        }
+        .content{
+            width: 100%;
+        }
+        .item1{
+            float: left;
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            text-decoration: none;
+            background-color: #dddddd;
+            height: 350px;
+            color: blue;
+
+
+        }
+        .item1 a{
+            padding-top: 20px;
+        }
+        .item2{
+            float: left;
+            width: 60%;
+            padding: 20px;
+        }
+
+        .item3{
+            float: left;
+            width: 20%;
+        }
+        .item3 p{
+            padding: 30px;
+            border: 1px solid lightgray;
+            margin: 30px;
+            text-align: center;
+        }
+        footer{
+            clear: both;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 8px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <ul>
+        <a href="#">Logo</a>
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+        <a href="#">Login</a>
+    </ul>
+
+</header>
+<div class="content">
+    <div class="item1">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+    <div class="item2">
+        <h1>Welcome</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione expedita porro reiciendis sequi fugiat reprehenderit esse error neque nihil vero sed, ut, officia quos quae voluptatibus, voluptate consequatur quia fugit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione expedita porro reiciendis sequi fugiat reprehenderit esse error neque nihil vero sed, ut, officia quos quae voluptatibus, voluptate consequatur quia fugit?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione expedita porro reiciendis sequi fugiat reprehenderit esse error neque nihil vero sed, ut, officia quos quae voluptatibus, voluptate consequatur quia fugit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione expedita porro reiciendis sequi fugiat reprehenderit esse error neque nihil vero sed, ut, officia quos quae voluptatibus, voluptate consequatur quia fugit?
+        </p>
+        <h2>Test</h2>
+        <p>Lorem ipsum...</p>
+    </div>
+    <div class="item3">
+        <p>ADS</p>
+        <p>ADS</p>
+    </div>
+</div>
+<footer>
+    <p>Footer Text</p>
+</footer>
+</body>
+</html>
